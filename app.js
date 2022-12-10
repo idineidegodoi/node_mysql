@@ -1,5 +1,8 @@
 const express = require("express");
 
+//Importando a conexão com banco de dados
+const db = require('./models/db');
+
 const app = express();
 
 //Aceitando JSON para passar um objeto
